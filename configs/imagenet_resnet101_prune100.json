@@ -1,0 +1,22 @@
+{
+  "method": 22,
+  "frequency" : 30,
+  "prune_per_iteration" : 0,
+  "maximum_pruning_iterations" : 1,
+  "starting_neuron" : 0,
+  "fixed_layer" : -1,
+  "l2_normalization_per_layer": false,
+  "rank_neurons_equally": false,
+  "prune_neurons_max": 0,
+  "use_momentum": true,
+  "pruning_silent": false,
+
+  "pruning_threshold" : 100.0,
+  "start_pruning_after_n_iterations" : 0,
+  "push_group_down" : false,
+  "do_iterative_pruning" : true,
+  "fixed_criteria" : false,
+  "seed" : 0,
+  "pruning_momentum" : 0.9
+}
+

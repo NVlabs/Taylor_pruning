@@ -1,0 +1,13 @@
+runs/
+.idea/
+*.tar.gz
+*.zip
+*.pkl
+*.pyc
+*.py~
+__pycache__/
+*.py[cod]
+*$py.class
+*.*[cod]
+.DS_Store
+._*
