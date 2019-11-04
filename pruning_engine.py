@@ -900,7 +900,7 @@ class pytorch_pruning(object):
             if not self.prune_layers[layer]:
                 continue
             for unit in range(len(self.pruning_gates[layer])):
-                if not self.pruning_gates[layer][unit]:
+                if self.pruning_gates[layer][unit]:
                     continue
                 if 'momentum_buffer' in optimizer.state[self.parameters[layer]].keys():
                     optimizer.state[self.parameters[layer]]['momentum_buffer'][unit] *= 0.0
